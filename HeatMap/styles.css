@@ -1,0 +1,64 @@
+:root {
+  --dark: #53618b;
+  --light: rgb(212, 206, 206);
+  --black: #000000;
+}
+
+.light-theme {
+  --bg: var(--dark);
+  --fontColor: var(--black);
+  --btnBg: var(--black);
+  --btnFontColor: var(--light);
+}
+
+.dark-theme {
+  --bg: var(--black);
+  --fontColor: var(--dark);
+  --btnBg: var(--light);
+  --btnFontColor: var(--black);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fontColor);
+  font-family: helvetica;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+
+.btn {
+  position: absolute;
+  cursor: pointer;
+  top: 20px;
+  left: 100px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  border: none;
+  color: var(--btnFontColor);
+  background-color: var(--btnBg);
+}
+
+#col {
+  flex-direction: column;
+  text-align: center;
+}
+
+svg {
+  background-color: rgb(121, 164, 193);
+}
+
+p {
+  line-height: 0.1rem;
+}
+
+#legend {
+  position: absolute;
+  top: 2rem;
+  left: 70%;
+  margin: 0;
+  padding: 0;
+}

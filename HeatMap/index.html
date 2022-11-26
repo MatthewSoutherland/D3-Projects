@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <link rel="stylesheet" href="styles.css" />
+    <title>Heat Map</title>
+  </head>
+  <body class="light-theme">
+    <div class="container">
+      <div id="col">
+        <h1 id="title">Heat Map</h1>
+        <h3 id="description">Tempeture</h3>
+        <svg id="canvas"></svg>
+      </div>
+      <div>
+        <svg id="legend" height="90" width="90"></svg>
+      </div>
+    </div>
+    <button type="button" class="btn" id="auto-dark">Dark</button>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+  <script src="./heatMap.js"></script>
+</html>

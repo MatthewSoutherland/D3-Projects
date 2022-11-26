@@ -1,0 +1,45 @@
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#title {
+  text-align: center;
+}
+
+#title__span {
+  display: block;
+  font-size: 0.8em;
+}
+
+.graph {
+  position: relative;
+}
+
+.dot {
+  stroke: black;
+}
+
+#legend {
+  position: absolute;
+  top: 30%;
+  left: 65%;
+}
+
+#tooltip {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  min-width: 150px;
+  width: auto;
+  height: auto;
+  padding: 0.5em;
+  font: 1rem;
+  background: black;
+  color: white;
+  border-radius: 4px;
+  pointer-events: none;
+}
